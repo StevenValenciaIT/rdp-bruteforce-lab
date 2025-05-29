@@ -16,7 +16,13 @@ Used `xfreerdp3` with the `rockyou.txt` wordlist for 20 password attempts.
 - Wazuh alerts escalated to Level 10 for multiple failed logins
 
 ## Screenshots
+### Windows Event Viewer Logs
+![Event Viewer Logon Failures](eventviewer_4625.png)
 
+### Wazuh Alerts
+![Wazuh Level 10 Alert](wazuh-logon_failure.png)
 
+### Kali Brute-force loop command
+![Kali Brute Force Loop Command](kali_bruteforce_loopback_cmd.png)
 ## Conclusion
 Successfully simulated brute-force detection. This lab helped reinforce understanding of Windows logon events and SIEM alerting.
