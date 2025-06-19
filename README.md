@@ -17,8 +17,6 @@ Used `xfreerdp3` with the `rockyou.txt` wordlist for 20 password attempts.
 
 ## Screenshots
 ### Detection Flow Diagram
-![Brief Flow Diagram 
-### Windows Event Viewer Logs
 ![Event Viewer Logon Failures](flow_diagram.png)
 
 ### Wazuh Alerts
